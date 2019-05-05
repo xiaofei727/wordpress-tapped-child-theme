@@ -1,0 +1,230 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+#navbar a {
+  font-size: 27px;
+  color: black;
+}
+#navbar .nav-item {
+  margin-left: 30px;
+  float: right;
+}
+.ml-auto {
+  margin-right: 40px;
+}
+
+
+#image_slide {
+  width: 100%;
+  background-image: url("../image/home.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#image_slide h1 {
+  line-height: 1;
+  font-size: 4.5vw;
+  color: white;
+}
+#image_slide .col-md-6 {
+  padding: 7vw;
+}
+#image_slide div.right .special {
+  color: #d14d36;
+}
+#image_slide div.right button {
+  margin-top: 43px;
+  background-color: #d14d36;
+  color: white;
+  font-size: 2vw;
+  padding: 0.5vw;
+}
+
+
+
+#tap div.left {
+  background-image: url("../image/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#tap div.right {
+  padding: 7vw;
+}
+#tap div.right h1 {
+  font-size: 3vw;
+}
+#tap div.right h3 {
+  font-size: 2vw;
+}
+#tap div.right .special {
+  color: #d14d36;
+}
+
+.line {
+  border-bottom: 6px solid #d14d36;
+  width: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#tap_question {
+  padding: 5vw 7vw;
+  background-color: #344d6b;
+  color: white;
+}
+#tap_question h2 {
+  font-size: 3vw;
+}
+#tap_question h4 {
+  font-size: 2vw;
+}
+#tap_question button {
+  margin-left: 3vw;
+  margin-top: 3vw;
+  background-color: #d14d36;
+  color: white;
+  font-size: 2vw;
+  padding: 0.5vw;
+}
+
+#service_overall {
+  background-image: url("../image/pattern.jpg");
+  background-repeat: repeat;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#service {
+  background-image: url("../image/pattern.jpg");
+  background-repeat: repeat-x;
+  border: 10px solid #344d6b;
+}
+#service h1 {
+  padding: 6vw;
+  font-size: 5vw;
+}
+#service h2 {
+  font-size: 4vw;
+}
+#service h5 {
+  font-size: 2vw;
+}
+#service .col-lg-6 {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 6vw;
+}
+
+
+#happy_client {
+  padding: 3vw;
+}
+#happy_client h1 {
+  font-size: 5vw;
+}
+#happy_client .brand_image {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 22vw;
+}
+#happy_client .imageB {
+  background-image: url("../image/B.jpg");
+}
+#happy_client .imageT {
+  background-image: url("../image/T.jpg");
+}
+#happy_client .imageM {
+  background-image: url("../image/M.jpg");
+}
+#happy_client .imageSPARK {
+  background-image: url("../image/SPARK.jpg");
+}
+#happy_client .imageBenz {
+  background-image: url("../image/Benz.jpg");
+}
+
+
+/* #mission {
+  height: 847px;
+  background-color: #344d6b;
+  color: white;
+}
+#mission h1 {
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 64px;
+  text-align: center;
+}
+#mission_content {
+  margin: 64px 60px;
+  background-color: white;
+  height: 563px;
+}
+
+#mission_content .row {
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 503px;
+}
+
+#mission_content_image {
+  background-image: url("./image/mission.jpg");
+  background-size: cover;
+  height: inherit;
+  background-position: center;
+}
+#mission_content_text {
+  padding: 83px 13px;
+  height: inherit;
+}
+#mission_content_text h3 {
+  margin-bottom: 39px;
+  color: black;
+} */
+/* #contact {
+  height: 985px;
+} */
+
+#contact h1 {
+  text-align: center;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  padding-top: 5vw;
+  font-size: 5vw;
+}
+#contact .row>div {
+  padding: 4vw 10%;
+}
+#contact div.left .form-group label {
+  font-size: 2vw;
+}
+#contact div.left .form-group button {
+  background-color: #d14d36;
+  color: white;
+  font-size: 2vw;
+  padding: 0.5vw;
+}
+
+#contact div.right .line {
+  border-bottom: 6px solid #d14d36;
+  width: 60px;
+}
+#contact div.right h3 {
+  font-size: 3vw;
+  color: #344d6b;
+}
+#contact div.right h4 {
+  font-size: 2vw;
+  color: black;
+}
+
+#footer {
+  padding: 2vw;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}

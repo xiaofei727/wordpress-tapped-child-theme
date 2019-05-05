@@ -1,0 +1,99 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+#navbar a {
+  font-size: 27px;
+  color: black;
+}
+#navbar .nav-item {
+  margin-left: 30px;
+  float: right;
+}
+.ml-auto {
+  margin-right: 40px;
+}
+
+#image_slide {
+  width: 100%;
+  background-image: url("../image/about-page.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 5vw;
+  justify-content: center;
+  text-align: center;
+}
+#image_slide h1,
+h4 {
+  color: white;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  line-height: 2;
+}
+#image_slide .line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 6px solid #d14d36;
+  margin-right: auto;
+  margin-left: auto;
+  width: 5vw;
+}
+#image_slide button.tasting {
+  background-color: #d14d36;
+  color: white;
+}
+#image_slide button.video {
+  background-color: white;
+  color: #d14d36;
+}
+
+#freshed_brew {
+  padding: 5vw;
+}
+#freshed_brew div.left {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+#freshed_brew div.left h1,
+h5 {
+  color: black;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+#freshed_brew div.right {
+  background-image: url(../image/right.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#freshed_brew button.tasting {
+  background-color: #d14d36;
+  color: white;
+}
+
+#tap_question {
+  background-color: #344d6b;
+}
+#tap_question div.left {
+  padding: 5vw 7.5vw;
+}
+#tap_question div.left h1,
+h3 {
+  color: white;
+}
+#tap_question div.right {
+  padding: 6vw 7.5vw;
+}
+#tap_question div.right button {
+  background-color: #d14d36;
+  color: white;
+}
+
+#footer {
+  padding: 2vw;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
