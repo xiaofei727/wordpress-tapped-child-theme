@@ -46,6 +46,10 @@
 		else if($post->post_title == 'Homepage')  {
 			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/Tapped.css" />';
 		}
+		else if($post->post_title == 'Reserve')  {
+			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/Tapped.css" />';
+			echo '<script src="' . get_stylesheet_directory_uri() . '/js/reserve.js"></script>';
+		}
 	?>
 </head>
 
