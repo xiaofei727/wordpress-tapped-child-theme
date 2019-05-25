@@ -10,7 +10,7 @@ Text Domain: twentysixteen-child
 */
 
 .site {
-  margin : 0px;
+  margin: 0px;
 }
 .site-inner {
   max-width: 1920px;
@@ -39,7 +39,7 @@ Text Domain: twentysixteen-child
 }
 
 @media screen and (min-width: 56.875em) {
-  .main-navigation .menu-item-has-children >a:after {
+  .main-navigation .menu-item-has-children > a:after {
     width: 20px;
     height: 20px;
     content: "";
@@ -47,18 +47,18 @@ Text Domain: twentysixteen-child
     right: 3.2em;
     top: 3em;
     color: red;
-    background: url('./image/menu-carot.png');
+    background: url("./image/menu-carot.png");
     background-repeat: no-repeat;
   }
 
-
-  .main-navigation li:hover > ul, .main-navigation li.focus > ul {
-      left: -40px;
-      right: 50px;
+  .main-navigation li:hover > ul,
+  .main-navigation li.focus > ul {
+    left: -40px;
+    right: 50px;
   }
 
   .main-navigation ul ul a {
-    width: 8.6875em;
+    width: 13.6875em;
   }
 
   .site-header-menu {
@@ -71,5 +71,10 @@ Text Domain: twentysixteen-child
     border-width: 0 10px 10px;
     right: 9px;
     top: -9px;
+  }
+
+  .main-navigation .menu-item-has-children > a {
+    margin: 0;
+    padding-right: 2.6em;
   }
 }

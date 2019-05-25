@@ -114,11 +114,11 @@ class Dashboard_Present_Table extends WP_List_Table {
         }
 
         $items = $wpdb->get_results(
-            "SELECT id, full_name, event, present FROM wp_presents WHERE 1 = 1 {$search}" .
+            "SELECT id, full_name, event, present FROM {$wpdb->prefix}presents WHERE 1 = 1 {$search}" .
             $wpdb->prepare( "ORDER BY id ASC LIMIT %d OFFSET %d;", $per_page, $offset ), ARRAY_A
         );
 
-        $count = $wpdb->get_var( "SELECT COUNT(id) FROM wp_presents WHERE 1 = 1 {$search};" );
+        $count = $wpdb->get_var( "SELECT COUNT(id) FROM {$wpdb->prefix}presents WHERE 1 = 1 {$search};" );
 
         $this->items = $items;
 

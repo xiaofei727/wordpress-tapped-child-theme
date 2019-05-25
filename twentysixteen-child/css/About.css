@@ -2,6 +2,7 @@ body {
   width: 100%;
   height: 100%;
   margin: auto;
+  font-family: "Lato", serif;
 }
 #navbar a {
   font-size: 27px;
@@ -24,13 +25,14 @@ body {
   justify-content: center;
   text-align: center;
 }
-#image_slide h1,
-h4 {
+#image_slide h1 {
   color: white;
   padding-right: 20vw;
   padding-left: 20vw;
   line-height: 2;
 }
+
+
 #image_slide .line {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -44,10 +46,29 @@ h4 {
 #image_slide button.tasting {
   background-color: #d14d36;
   color: white;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: none;
+  font-family: "Lato", serif;
+  font-size: 24px;
+  margin-right: 15px;
+}
+#image_slide a {
+  color: white;
+  text-decoration: none;
+}
+#image_slide a:hover {
+  color: white;
+  text-decoration: none;
 }
 #image_slide button.video {
   background-color: white;
   color: #d14d36;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: none;
+  font-family: "Lato", serif;
+  font-size: 24px;
 }
 
 #freshed_brew {
@@ -71,6 +92,20 @@ h5 {
 #freshed_brew button.tasting {
   background-color: #d14d36;
   color: white;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: none;
+  font-family: "Lato", serif;
+  font-size: 24px;
+}
+#freshed_brew a {
+  color: white;
+  text-decoration: none;
+}
+
+#freshed_brew a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 #tap_question {
@@ -80,8 +115,14 @@ h5 {
   padding: 5vw 7.5vw;
 }
 #tap_question div.left h1,
-h3 {
+#tap_question div.left h3 {
   color: white;
+}
+#tap_question div.left h3 {
+  font-weight: 400;
+}
+#tap_question div.left h1 {
+  margin-bottom: 10px;
 }
 #tap_question div.right {
   padding: 6vw 7.5vw;
@@ -89,8 +130,13 @@ h3 {
 #tap_question div.right button {
   background-color: #d14d36;
   color: white;
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: none;
+  font-family: "Lato", serif;
+  font-size: 22px;
+  padding: 19px;
 }
-
 #footer {
   padding: 2vw;
   background-color: #333333;

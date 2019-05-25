@@ -11,11 +11,13 @@
 	<div class="row">
 	  <div class="col-sm-12 col-md-6 col-lg-6 left"></div>
 	  <div class="col-sm-12 col-md-6 col-lg-6 right">
-	    <h1>Tap into</h1>
-	    <h1 class="special">Metro Detroit's</h1>
-	    <h1>Craft Beverage</h1>
-	    <h1>Delivery Service</h1>
-	    <button class="btn">Schedule a tasting</button>
+			<div class="description">
+				<h2>Tap into</h2>
+				<h2 class="special">Metro Detroit's</h2>
+				<h2>Craft Beverage</h2>
+				<h2>Delivery Service</h2>
+			</div>
+	    <a href="/#contact"><button class="btn">Schedule a tasting</button></a>
 	  </div>
 	</div>
 </div>

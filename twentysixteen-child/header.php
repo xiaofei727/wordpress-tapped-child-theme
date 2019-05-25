@@ -30,7 +30,8 @@
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
-    />
+		/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
@@ -40,17 +41,101 @@
     <title>Tapped <?php 	echo $post->post_title ?></title>
 	<?php wp_head(); ?>
 	<?php
-		if($post->post_title == 'About') {
+		
 			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/About.css" />';
-		}
-		else if($post->post_title == 'Homepage')  {
+		
+		
 			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/Tapped.css" />';
-		}
-		else if($post->post_title == 'Reserve')  {
+		
+		
 			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/Tapped.css" />';
 			echo '<script src="' . get_stylesheet_directory_uri() . '/js/reserve.js"></script>';
-		}
+		
+		
+			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/ColdBrew.css" />';
+			echo '<script src="' . get_stylesheet_directory_uri() . '/js/coldbrew.js"></script>';
+		
+		
+			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/SpecialEvent.css" />';
+			echo '<script src="' . get_stylesheet_directory_uri() . '/js/specialevent.js"></script>';
+		
+		
+			echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/css/TappedVending.css" />';
+		
 	?>
+	<style>
+		h4, h5, h6{
+			font-weight: 400;
+		}
+		#image_slide h1{
+			font-size: 4em;
+		}
+		h2{
+			font-size:2.2em;
+		}
+		.pattern-wrapper{
+			background: url('http://studio7.website/tapped/wp-content/themes/twentysixteen-child/image/pattern.jpg') repeat;
+		}
+		#benefits{
+			padding: 80px 10px;
+
+		}
+		#benefits h4{
+			font-size: 22px;
+		}
+		.tabcontent p{
+			margin-bottom: 0px !important;
+		}
+		#image_slide h1 {
+		    font-size: 4em;
+		    line-height: 72px;
+		}
+		.cafe-image{
+			max-height: 400px;
+			text-align: center;
+			display: block;
+			margin: 0px auto;
+			margin-top: 30px;
+		}
+		.coffee-service-image{
+			height: auto;
+			max-width: 100%;
+			vertical-align: middle;
+			max-height: 400px;
+			text-align: center;
+			display: block;
+			margin: 0px auto;
+			padding-top: 40px;
+		}
+		.office-tea-service img {
+		    height: auto;
+		    max-width: 100%;
+		    vertical-align: middle;
+		    max-height: 90px;
+		    display: block;
+		    margin: 0px auto;
+		}
+		#freshed_brew div.left{
+			padding-left: 2vw;
+		}
+		@media only screen and (max-width: 600px) {
+		  #image_slide h1{
+		    color: white;
+		    padding-right: 0vw;
+		    padding-left: 0vw;
+		  }
+		  small {
+		      margin-left: 0px;
+		  }
+		  #benefits {
+		      padding: 30px 10px;
+		  }
+		  #image_slide h1, #image_slide h4 {
+		      padding-right: 0vw;
+		      padding-left: 0vw;
+		  }
+		}
+	</style>
 </head>
 
 <body <?php body_class(); ?>>

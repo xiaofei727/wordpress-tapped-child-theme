@@ -8,7 +8,7 @@
 ?>
 
 <div id="contact">
-    <h1>Contact Us</h1>
+    <h2>Contact Us</h2>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 left">
         <div class="form-group">
@@ -40,7 +40,7 @@
         </div>
         <div class="form-group">
           <label for="message">Message</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
+          <textarea class="form-control" id="message" rows="8"></textarea>
         </div>
         <div class="form-group">
           <button type="submit" class="btn">Submit</button>
@@ -50,14 +50,14 @@
         <h3>Sign up for a fun,</h3>
         <h3>no-commitment tasting today!</h3>
         <div class="line"></div>
-        <h4>No-commitment Pricing</h4>
-        <h4>Dedicated team of brewers</h4>
-        <h4>Full-service turnkey solution</h4>
-        <h4>Expert technicians keep operations running smoothly</h4>
-        <h4>
+        <h5>No-commitment Pricing</h5>
+        <h5>Dedicated team of brewers</h5>
+        <h5>Full-service turnkey solution</h5>
+        <h5>Expert technicians keep operations running smoothly</h5>
+        <h5>
           Responsive customer experience team that works to fit your needs
-        </h4>
-        <h4>Secure and convenient payment methods</h4>
+        </h5>
+        <h5>Secure and convenient payment methods</h5>
       </div>
     </div>
   </div>

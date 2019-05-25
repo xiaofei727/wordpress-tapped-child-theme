@@ -1,0 +1,166 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  font-family: "Lato", serif;
+}
+#navbar a {
+  font-size: 27px;
+  color: black;
+}
+#navbar .nav-item {
+  margin-left: 30px;
+  float: right;
+}
+.ml-auto {
+  margin-right: 40px;
+}
+
+#image_slide {
+  width: 100%;
+  background-image: url("../image/tappedvending.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 5vw;
+  justify-content: center;
+  text-align: center;
+}
+#image_slide h1{
+  color: white;
+  padding-right: 20vw;
+  padding-left: 20vw;
+}
+
+
+#image_slide .line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 6px solid #d14d36;
+  margin-right: auto;
+  margin-left: auto;
+  width: 5vw;
+}
+#image_slide button.tasting {
+  background-color: #d14d36;
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: none;
+  font-family: "Lato", serif;
+}
+
+#freshed_brew {
+  padding: 5vw;
+}
+#freshed_brew div.left {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+#freshed_brew div.left h1,
+h5 {
+  color: black;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+#freshed_brew div.right {
+  background-image: url(../image/right.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#freshed_brew button.tasting {
+  background-color: #d14d36;
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: none;
+  font-family: "Lato", serif;
+}
+
+#order_confidence {
+  padding: 5vw;
+  border: 5vw solid #344d6b;
+}
+#order_confidence div.left {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+#order_confidence div.left h1,
+h5 {
+  color: black;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+#order_confidence div.right {
+  background-image: url(../image/cold-brew.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 486px;
+}
+#order_confidence button.tasting {
+  background-color: #d14d36;
+  color: white;
+  margin-bottom: 5px;
+  text-transform: none;
+  font-family: "Lato", serif;
+  font-size: 20px;
+  letter-spacing: .5px;
+}
+#order_confidence a {
+  color: white;
+  text-decoration: none;
+}
+#order_confidence a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#tap_question {
+  background-color: #344d6b;
+}
+#tap_question div.left {
+  padding: 5vw 7.5vw;
+}
+#tap_question div.left h1,
+#tap_question div.left h3 {
+  color: white;
+}
+#tap_question div.left h3 {
+  font-weight: 400;
+}
+#tap_question div.left h1 {
+  margin-bottom: 10px;
+}
+#tap_question div.right {
+  padding: 6vw 7.5vw;
+}
+#tap_question div.right button {
+  background-color: #d14d36;
+    color: white;
+    font-size: 22px;
+    padding: 19px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-transform: none;
+}
+#request h5 {
+  text-align: center;
+}
+
+#request button {
+  background-color: #d14d36;
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 22px;
+  text-transform: none;
+  font-family: "Lato", serif;
+}
+
+#footer {
+  padding: 2vw;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}

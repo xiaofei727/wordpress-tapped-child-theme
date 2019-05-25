@@ -7,12 +7,32 @@
  */
 ?>
 
+<style>
+  .btn{
+    background-color: #d14d36;
+    color: white;
+    padding: 10px 21px;
+    text-transform: none;
+    font-size: 20px;
+  }
+  body{
+    font-family: "Lato", sans-serif;
+  }
+  .reserve-intro{
+    font-weight: 400;
+    padding-bottom: 50px;
+    max-width: 530px;
+    margin: 0px auto;
+  }
+</style>
 
-<div id="contact">
-    <h1>Reserve</h1>
+
+<div id="contact" class="container">
+    <h1 class="text-center mb-4">Reserve</h1>
+    <h3 class="text-center reserve-intro">Schedule a free sampling to learn more or try some of our tasty beverages.</h3>
     <form action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" method="POST">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-6 left">
+      <div class="col-sm-12 col-md-12 col-lg-5 mr-5">
         <div class="form-group">
           <label for="full_name">Full Name</label>
           <input
@@ -86,6 +106,9 @@
         <div class="form-group">
           <button type="submit" class="btn">Submit</button>
         </div>
+      </div>
+      <div class="col-md-6">
+        <img src="/wp-content/themes/twentysixteen-child/image/1.jpg">
       </div>
 
     </div>

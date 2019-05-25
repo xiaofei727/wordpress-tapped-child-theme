@@ -30,7 +30,7 @@ function process_tapped_form_data() {
 	} 
 
 	// Create database table SQL. 
-	$create_ddl = "CREATE TABLE `tapped`.`wp_presents`( `id` INT(11) NOT NULL AUTO_INCREMENT , `full_name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `phone` VARCHAR(255) NOT NULL , `event` VARCHAR(255) NOT NULL , `present` VARCHAR(255) NOT NULL , `keg` VARCHAR(255) NOT NULL , `message` TEXT NOT NULL , PRIMARY KEY (`id`))";
+	$create_ddl = "CREATE TABLE `wp_presents`( `id` INT(11) NOT NULL AUTO_INCREMENT , `full_name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `phone` VARCHAR(255) NOT NULL , `event` VARCHAR(255) NOT NULL , `present` VARCHAR(255) NOT NULL , `keg` VARCHAR(255) NOT NULL , `message` TEXT NOT NULL , PRIMARY KEY (`id`))";
 
  	
   	$table_name = $wpdb->prefix . 'presents';
@@ -64,7 +64,10 @@ function process_tapped_form_data() {
 	);
 
  	if($success) {
+ 		echo '<script>window.location="' . site_url('/') . '"</script>';
+// 		echo "redirect to : " . site_url('/');
 	 	wp_redirect( site_url('/') ); // <-- here goes address of site that user should be redirected after submitting that form
+	 	exit();
   	} else {
 	   echo 'not';
    	}

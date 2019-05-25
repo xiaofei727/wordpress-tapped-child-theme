@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
 	$("#present").change(function(){
-		alert(this.value);
+		
 		if(this.value == "Keg")
 		{
 			$(".keg").show();
